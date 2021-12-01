@@ -15,7 +15,7 @@ function createGrid(){
             square.style.background = "black";
         });
 
-        square.addEventListener("touchstart", function(){
+        square.addEventListener("touchmove", function(){
             square.style.background = "black";
           });
     }
