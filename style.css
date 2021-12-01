@@ -1,0 +1,32 @@
+body{
+    background-color: #f0eae6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer{
+    margin-top: 5%;
+    gap:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer>button{
+    width: 10%;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr);
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
