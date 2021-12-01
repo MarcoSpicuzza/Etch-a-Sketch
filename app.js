@@ -14,6 +14,10 @@ function createGrid(){
         square.addEventListener("mouseover", function(){
             square.style.background = "black";
         });
+
+        square.addEventListener("touchstart", function(){
+            square.style.background = "black";
+          });
     }
 }
 createGrid();
